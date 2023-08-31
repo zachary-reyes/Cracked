@@ -7,5 +7,5 @@ public class Car extends Vehicle {
     }
 
     /* Checks if the spot is Compact or Large. Doesn't check num of spots */
-    public boolean canFitInSpot(ParkingSpot spot) {return spot.getSize() == VehicleSize.Large || spot.getSize() == VehicleSize.Compact;};
+    public boolean canFitInSpot(ParkingSpot spot) {return spot.getSize() == VehicleSize.Large || spot.getSize() == VehicleSize.Compact;}
 }
